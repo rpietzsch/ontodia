@@ -29,7 +29,7 @@ import { WorkspaceEventHandler, WorkspaceEventKey } from './workspaceContext';
 import { recursiveForceLayout } from '../viewUtils/layout';
 
 const ONTODIA_WEBSITE = 'https://www.eccenca.com/';
-const ONTODIA_LOGO_SVG = require<string>('../../../images/eccenca-logo.svg');
+const ONTODIA_LOGO_SVG = require<string>('../../../images/eccenca_logo.svg');
 
 export interface WorkspaceProps {
     /** Saves diagram layout (position and state of elements and links). */
