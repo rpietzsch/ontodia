@@ -51,7 +51,7 @@ const props: WorkspaceProps & ClassAttributes<Workspace> = {
     languages: [
         {code: 'en', label: 'English'},
         {code: 'de', label: 'German'},
-        {code: 'ru', label: 'Russian'},
+        {code: 'fr', label: 'French'},
     ],
     language: 'ru',
     elementTemplateResolver: types => {
