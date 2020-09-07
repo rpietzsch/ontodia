@@ -58,10 +58,6 @@ export class OrderedMap<V> {
         this.ordered.sort(compare);
     }
 
-    reorder(compare: (a: V, b: V) => number) {
-        this.ordered.sort(compare);
-    }
-
     get items(): ReadonlyArray<V> {
         return this.ordered;
     }

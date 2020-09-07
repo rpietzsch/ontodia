@@ -92,10 +92,6 @@ export class DiagramModel {
         this.graph.reorderElements(compare);
     }
 
-    reorderElements(compare: (a: Element, b: Element) => number) {
-        this.graph.reorderElements(compare);
-    }
-
     createElement(elementIriOrModel: ElementIri | ElementModel, group?: string): Element {
         const elementIri = typeof elementIriOrModel === 'string'
             ? elementIriOrModel : (elementIriOrModel as ElementModel).id;

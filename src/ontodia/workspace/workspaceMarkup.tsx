@@ -23,8 +23,6 @@ import { Cancellation, CancellationToken } from '../viewUtils/async';
 
 import { WorkspaceLayout, WorkspaceLayoutType, WorkspaceLayoutNode } from './layout/layout';
 
-import { WorkspaceLayout, WorkspaceLayoutType, WorkspaceLayoutNode } from './layout/layout';
-
 export interface WorkspaceMarkupProps {
     toolbar: React.ReactElement<any>;
     model: AsyncModel;
